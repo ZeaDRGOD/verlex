@@ -76,9 +76,9 @@ body {
 }
 body {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
     min-height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 .logo-ds-flex {
     display: flex;
@@ -125,14 +125,14 @@ ul {
 ul li {
     position: relative;
     list-style: none;
-    width: 60px;
+    width: 170px;
     height: 60px;
     border-radius: 60px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgb(0 0 0 / 10%);
     transition: 0.5s;
+    align-items: center;
+    justify-content: center;
 }
 ul li:hover{
     width: 180px;
